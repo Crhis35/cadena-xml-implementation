@@ -1,0 +1,21 @@
+{
+  "name": "xml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "nodemon test.js"
+  },
+  "dependencies": {
+    "@blakepro/xml-query-find": "^1.1.2",
+    "axios": "^0.21.1",
+    "js-base64": "^3.6.1",
+    "object-scan": "^18.3.4",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
